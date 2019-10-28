@@ -253,3 +253,6 @@ The following guides may also be helpful:
 * https://spring.io/guides/gs/spring-boot/[Building an Application with Spring Boot]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+
+Table color : 현재 - 빨간색 #DF3A01
+Table color : 변경 - 파란색 #0404B4
