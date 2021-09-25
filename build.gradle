@@ -35,7 +35,7 @@ group = 'twinspark81'
 
 bootJar {
     baseName = 'lab-spring-boot-docker'
-    version =  '0.0.1'
+    version =  '0.0.3'
 }
 
 // tag::task[]

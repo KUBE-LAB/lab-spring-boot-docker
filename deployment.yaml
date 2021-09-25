@@ -13,7 +13,7 @@ spec:
     targetPort: 8080
 ---
 
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: lab-spring-boot-docker
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: lab-spring-boot-docker
-        image: twinspark81/lab-spring-boot-docker:0.0.1
+        image: twinspark81/lab-spring-boot-docker:0.0.3
         ports:
         - name: http
           containerPort: 8080
