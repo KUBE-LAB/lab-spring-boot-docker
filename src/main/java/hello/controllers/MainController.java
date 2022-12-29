@@ -13,4 +13,11 @@ public class MainController {
     return "hello.html";
   }
 
+  @RequestMapping("/name")
+  // @ResponseBody
+  public String getName() {
+    return "hello.html";
+  }
+
+
 }
