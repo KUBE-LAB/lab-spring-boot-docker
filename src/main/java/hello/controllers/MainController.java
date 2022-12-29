@@ -19,5 +19,11 @@ public class MainController {
     return "hello.html";
   }
 
+  
+  @RequestMapping("/update/name")
+  // @ResponseBody
+  public String updateName() {
+    return "hello.html";
+  }
 
 }
