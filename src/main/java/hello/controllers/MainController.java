@@ -46,5 +46,25 @@ public class MainController {
     return "hello.html";
   }
 
+  /** 메서드명: 회원성명 입력함수 **
+   * 
+   * @return
+  */
+  @RequestMapping("/input/name")
+  // @ResponseBody
+  public String inputName() {
+    return "hello.html";
+  }
 
+  /** 메서드명: 회원성명 삭제함수 **
+   * 
+   * @return
+  */
+  @RequestMapping("/delete/name")
+  // @ResponseBody
+  public String deleteName() {
+    return "hello.html";
+  }
+
+  
 }
