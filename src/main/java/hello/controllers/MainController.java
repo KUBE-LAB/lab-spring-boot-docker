@@ -15,6 +15,7 @@ public class MainController {
   public String index() {
     return "hello.html";
   }
+  
 /**
  * 메서드명 : 회원이름 조회하기
  * @return
@@ -24,6 +25,7 @@ public class MainController {
   public String getName() {
     return "hello.html";
   }
+  
   /** 메서드명: 회원성명 수정함수 **
    * 
    * @return
