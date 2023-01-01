@@ -15,6 +15,7 @@ public class MemberController {
   public String index() {
     return "hello.html";
   }
+  
 /**
  * 메서드명 : 회원이름 조회하기
  * @return
